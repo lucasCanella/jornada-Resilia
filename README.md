@@ -4,14 +4,11 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 
 ##### Importante! : Nesse repositório só está presente o conteúdo relacionado ao curso, mais atividade e projetos foram realizados por fora.
 
-<br>
-
 #### **Quem sou eu?**
 
 ##### Durante toda a minha vida sempre me vi com muito potencial mas nunca soube onde empregá-lo, a ideia de conseguir um emprego qualquer e passar o resto da minha vida trabalhando tendo como finalidade apenas o meu sustento me incomodava tremendamente. Por causa disso, já me aventurei em diversas áreas diferentes buscando encontrar aquilo que faça meus olhos brilharem, até que me encontrei com a possibilidade de trabalhar no que até então, teria sido a maior fonte de entretenimento e conhecimento na minha vida, a **tecnologia**.
 
 ##### Após passar alguns meses me aventurando na área da tecnologia por conta própria, eu conheci a Resilia, um bootcamp intensivo de 6 meses que me apresentou tudo que era necessário para que eu pudesse me tornar um Analista de dados, foram 6 meses intensos e de desafios, inseguranças e dúvidas, mas com esforço constante e com o apoio dos facilitadores e dos colegas de turma, eu consegui passar por todas as provações, concluindo o curso com sucesso.
-<br>
 
 #### **O que é esse repositorio?**
 ##### Esse Repositório é a minha **Jornada**. Todo o meu esforço, o meu tempo e o meu suor empregado no curso eu disponibilizo aqui. Abaixo você pode encontrar todos os exercícios, os projetos e tudo que desenvolvi ao longo desses 6 intensos meses.
