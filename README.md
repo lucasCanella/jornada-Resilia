@@ -1,3 +1,5 @@
+<br>
+
 # Jornada <span style="color:ECC916">Resilia</span>.
 
 Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conecte-se [comigo](https://www.linkedin.com/in/lucascanella-dados/)!
@@ -68,7 +70,7 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 | [**Modulos**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/modulos.py)  | `criação de módulos` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/modulos.py) | 
 | [**Modularize-se**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20modularize-se.py) | `importação de módulos`, `alias` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20modularize-se.py) | 
 <br>
----
+
 <br>
 
 * ### Projetos Individuais (To Do's)
@@ -77,7 +79,7 @@ N° | Título | Conteúdo | Link de acesso |
 1 | [**Guia de Instalação do Python**](https://docs.google.com/document/d/1BmKbzCngVPkX1m1K4GewCHqO_J1ejAkpcDh9z89DVUk/edit?usp=sharing)  | `Criação de documentação` | [link](https://docs.google.com/document/d/1BmKbzCngVPkX1m1K4GewCHqO_J1ejAkpcDh9z89DVUk/edit?usp=sharing) | 
 2 | [**Mapeamento de Público para pesquisa ambiental**]()  | `tipos de dados`, `operadores`, `função`, `formatação`, `entrada e saída de dados`  | [link]() | 
 <br>
----
+
 <br>
 
 * ### Projeto Final 
@@ -85,4 +87,3 @@ Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
  [**FALE COMIGO!**](https://github.com/lucasCanella/projeto-modulo-1)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Provou seu diferencial`|[link](https://github.com/lucasCanella/projeto-modulo-1) | 
 <br>
- ---
