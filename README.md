@@ -72,7 +72,7 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 N° | Título | Conteúdo | Link de acesso |
 |--|--|--|--|
 1 | [**Guia de Instalação do Python**](https://docs.google.com/document/d/1BmKbzCngVPkX1m1K4GewCHqO_J1ejAkpcDh9z89DVUk/edit?usp=sharing)  | `Criação de documentação` | [link](https://docs.google.com/document/d/1BmKbzCngVPkX1m1K4GewCHqO_J1ejAkpcDh9z89DVUk/edit?usp=sharing) | 
-2 | [**Mapeamento de Público para pesquisa ambiental**]()  | `tipos de dados`, `operadores`, `função`, `formatação`, `entrada e saída de dados`  | [link]() | 
+2 | [**Mapeamento de Público para pesquisa ambiental**](https://github.com/lucasCanella/ToDo-2-pesquisa-ambiental)  | `tipos de dados`, `operadores`, `função`, `formatação`, `entrada e saída de dados`  | [link](https://github.com/lucasCanella/ToDo-2-pesquisa-ambiental) | 
 <br>
 
 <br>
