@@ -15,11 +15,6 @@ Desenvolva uma página que "modela" um cachorro. Para isso, seu algoritmo deve:
 '''
 
 class cachorro():
-    nome = ''
-    cor = ''
-    raca = ''
-    idade = 0
-
     def __init__(self, nome, cor, raca, idade):
         self.setnome(nome)
         self.setcor(cor)
