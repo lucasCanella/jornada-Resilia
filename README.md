@@ -40,7 +40,7 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 
 | Exercício | Conteúdo | Acesso | 
 |--|--|--|
-| [**Variando**]()  | `variáveis` |  [link]() |
+| [**Variando**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M1Pythonfundamentos%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20variando.py)  | `variáveis` |  [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M1Pythonfundamentos%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20variando.py) |
 | [**Tipos e operadores**]() | `tipos de dados`, `operadores` | [link]() | 
 | [**Tipos e operadores 2**]()  | `tipos de dados`, `operadores` | [link]() | 
 | [**Tipos e operadores 3**]() | `tipos de dados`, `operadores` | [link]() | 
