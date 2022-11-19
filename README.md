@@ -40,30 +40,30 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 
 | Exercício | Conteúdo | Acesso | 
 |--|--|--|
-| [**Variando**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20variando.py)  | `variáveis` |  [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20variando.py) |
-| [**Tipos e operadores**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores1.py) | `tipos de dados`, `operadores` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores1.py) | 
-| [**Tipos e operadores 2**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores2.py)  | `tipos de dados`, `operadores` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores2.py) | 
-| [**Tipos e operadores 3**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores3.py) | `tipos de dados`, `operadores` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20tipos%20e%20operadores3.py) | 
-| [**praticando print e input**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20praticando%20print%20e%20input.py)  | `entrada e saída de dados` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20praticando%20print%20e%20input.py) | 
-| [**introdução a funções**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20introdu%C3%A7%C3%A3o%20a%20fun%C3%A7%C3%B5es.py) | `Funções`, `tipos de dados`, `operadores` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20introdu%C3%A7%C3%A3o%20a%20fun%C3%A7%C3%B5es.py) | 
-| [**reajuste**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20reajuste.py)  | `condicionais`, `tipos`, `operadores lógicos` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20reajuste.py) | 
-| [**reajuste (extra)**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20reajuste%20(extra).py) | `condicionais`, `tipos`, `operadores` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20reajuste%20(extra).py) | 
-| [**Olha o loop**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%201.py)  | `laço de repetição for` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%201.py) | 
-| [**Olha o loop  (extra)**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%201%20(extra).py) | `laço de repetição while` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%201%20(extra).py) | 
-| [**Olha o loop 2**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%202.py)  | `laço de repetição for` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%202.py) | 
-| [**Olha o loop 2 (extra)**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%202%20(extra).py) | `laços aninhados` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Olha%20o%20loop%202%20(extra).py) | 
-| [**É febre?**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20%C3%A9%20febre.py)  | `laços de repetição`, `condicionais` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20%C3%A9%20febre.py) | 
-| [**Censo**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20censo.py) | `contadores`, `laços`, `condicionais` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/atividade%20-%20censo.py) | 
-| [**Notas**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20notas.py)  | `operadores lógicos`, `função` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20notas.py) | 
-| [**Corte**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Corte.py) | `str`, `slice` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Corte.py) | 
-| [**Estruturar dado**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Estruturar%20dado.py)  | `manipulação de string`, `casting`| [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Estruturar%20dado.py) | 
-| [**Dirigir ou Beber**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20dirigirOuBeber.py) | `função`, `return` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20dirigirOuBeber.py) | 
-| [**Previsão de Rodagem**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20previs%C3%A3oRodagem.py)  | `função`, `return` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20previs%C3%A3oRodagem.py) | 
-| [**Cidades**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Cidades.py) | `função`, `default` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Cidades.py) | 
-| [**def + manipulação de strings**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20def%20%2B%20manipula%C3%A7%C3%A3o%20de%20string.py)  | `str`, `função`, `manipulação de strings` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20def%20%2B%20manipula%C3%A7%C3%A3o%20de%20string.py) | 
-| [**Fibonacci**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Fibonacci.py) | `lógica`, `contadores`, `laços` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20Fibonacci.py) | 
-| [**Modulos**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/modulos.py)  | `criação de módulos` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/modulos.py) | 
-| [**Modularize-se**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20modularize-se.py) | `importação de módulos`, `alias` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo%201%20(06-2022)/Exerc%C3%ADcios/Atividade%20-%20modularize-se.py) | 
+| [**Variando**]()  | `variáveis` |  [link]() |
+| [**Tipos e operadores**]() | `tipos de dados`, `operadores` | [link]() | 
+| [**Tipos e operadores 2**]()  | `tipos de dados`, `operadores` | [link]() | 
+| [**Tipos e operadores 3**]() | `tipos de dados`, `operadores` | [link]() | 
+| [**praticando print e input**]()  | `entrada e saída de dados` | [link]() | 
+| [**introdução a funções**]() | `Funções`, `tipos de dados`, `operadores` | [link]() | 
+| [**reajuste**]()  | `condicionais`, `tipos`, `operadores lógicos` | [link]() | 
+| [**reajuste (extra)**]() | `condicionais`, `tipos`, `operadores` | [link]() | 
+| [**Olha o loop**]()  | `laço de repetição for` | [link]() | 
+| [**Olha o loop  (extra)**]() | `laço de repetição while` | [link]() | 
+| [**Olha o loop 2**]()  | `laço de repetição for` | [link]() | 
+| [**Olha o loop 2 (extra)**]() | `laços aninhados` | [link]() | 
+| [**É febre?**]()  | `laços de repetição`, `condicionais` | [link]() | 
+| [**Censo**]() | `contadores`, `laços`, `condicionais` | [link]() | 
+| [**Notas**]()  | `operadores lógicos`, `função` | [link]() | 
+| [**Corte**]() | `str`, `slice` | [link]() | 
+| [**Estruturar dado**]()  | `manipulação de string`, `casting`| [link]() | 
+| [**Dirigir ou Beber**]() | `função`, `return` | [link]() | 
+| [**Previsão de Rodagem**]()  | `função`, `return` | [link]() | 
+| [**Cidades**]() | `função`, `default` | [link]() | 
+| [**def + manipulação de strings**]()  | `str`, `função`, `manipulação de strings` | [link]() | 
+| [**Fibonacci**]() | `lógica`, `contadores`, `laços` | [link]() | 
+| [**Modulos**]()  | `criação de módulos` | [link]() | 
+| [**Modularize-se**]() | `importação de módulos`, `alias` | [link]() | 
 <br>
 
 <br>
@@ -81,4 +81,57 @@ N° | Título | Conteúdo | Link de acesso |
 Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
  [**FALE COMIGO!**](https://github.com/lucasCanella/projeto-modulo-1)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Provou seu diferencial`|[link](https://github.com/lucasCanella/projeto-modulo-1) | 
+<br>
+
+---
+
+## Módulo 2 - Python / Orientação a Objeto (07-2022)
+<br>
+
+
+* ### Exercícios
+
+<br>
+
+| Exercício | Conteúdo | Acesso | 
+|--|--|--|
+| [**Listando**]()  | `variáveis` |  [link]() |
+| [**Estruturar dado**]() | `tipos de dados`, `operadores` | [link]() | 
+| [**Listando 2**]()  | `tipos de dados`, `operadores` | [link]() | 
+| [**Estruturar dado 2**]() | `tipos de dados`, `operadores` | [link]() | 
+| [**Pizzaiolo**]()  | `entrada e saída de dados` | [link]() | 
+| [**Listando cubos**]() | `Funções`, `tipos de dados`, `operadores` | [link]() | 
+| [**Implemente**]()  | `condicionais`, `tipos`, `operadores lógicos` | [link]() | 
+| [**Empilhando**]() | `condicionais`, `tipos`, `operadores` | [link]() | 
+| [**Minha tupla**]()  | `laço de repetição for` | [link]() | 
+| [**Criando tuplas**]() | `laço de repetição while` | [link]() | 
+| [**Meu primeiro dicionário**]()  | `laço de repetição for` | [link]() | 
+| [**Esvaziando o dicionário**]() | `laços aninhados` | [link]() | 
+| [**Enquete**]()  | `laços de repetição`, `condicionais` | [link]() | 
+| [**Criando um aninhamento**]() | `contadores`, `laços`, `condicionais` | [link]() | 
+| [**O cachorro modelo**]()  | `operadores lógicos`, `função` | [link]() | 
+| [**Organizando as entrevistas**]() | `str`, `slice` | [link]() | 
+| [**Computador de bordo**]()  | `manipulação de string`, `casting`| [link]() | 
+| [**É de casa**]() | `função`, `return` | [link]() | 
+| [**Tudo na capsula**]()  | `função`, `return` | [link]() | 
+| [**Senta que la vem historia**]() | `função`, `default` | [link]() | 
+| [**Criando nosso resilog**]()  | `str`, `função`, `manipulação de strings` | [link]() | 
+
+<br>
+
+<br>
+
+* ### Projetos Individuais (To Do's)
+N° | Título | Conteúdo | Link de acesso |
+|--|--|--|--|
+3 | [**DEU MATCH!**](https://github.com/lucasCanella/ToDo-3-deu-match)  | `Criação de documentação` | [link](https://github.com/lucasCanella/ToDo-3-deu-match) | 
+4 | [**CONTRATADO!**](https://github.com/lucasCanella/ToDo-4-Contratado)  | `tipos de dados`, `operadores`, `função`, `formatação`, `entrada e saída de dados`  | [link](https://github.com/lucasCanella/ToDo-4-Contratado) | 
+<br>
+
+<br>
+
+* ### Projeto Final 
+Título | Conteúdo | Conceito | Link de acesso |
+|--|--|--|--|
+ [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Provou seu diferencial`|[link](https://github.com/lucasCanella/Projeto_modulo-2) | 
 <br>
