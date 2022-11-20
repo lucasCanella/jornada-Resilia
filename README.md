@@ -114,7 +114,7 @@ Título | Conteúdo | Conceito | Link de acesso |
 | [**O cachorro modelo**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-OCachorroModelo.py)  | `Programação Orientada a Objeto (POO)`, `atributos`, `métodos`, `construtor`, `setters` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-OCachorroModelo.py) | 
 | [**Organizando as entrevistas**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-OrganizandoAsEntrevistas.py) | `Programação Orientada a Objeto (POO)`, `atributos`, `métodos`, `construtor`, `setters` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-OrganizandoAsEntrevistas.py) | 
 | [**Computador de bordo**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-ComputadorDeBordo.py)  | `Programação Orientada a Objeto (POO)`, `atributos`, `métodos`, `construtor`, `setters`, `getters`| [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-ComputadorDeBordo.py) | 
-| [**É de casa**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-%C3%89DeCasa.py) |  `Programação Orientada a Objeto (POO)`, `agregação`, `composição`, | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-%C3%89DeCasa.py) | 
+| [**É de casa**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-%C3%89DeCasa.py) |  `Programação Orientada a Objeto (POO)`, `agregação`, `composição`| [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-%C3%89DeCasa.py) | 
 | [**Tudo na capsula**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-TudoNaC%C3%A1psula.py)  |  `Programação Orientada a Objeto (POO)`, `encapsulamento`| [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-TudoNaC%C3%A1psula.py) | 
 | [**Senta que la vem historia**](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-SentaQueL%C3%A1VemHist%C3%B3ria.py) | `Programação Orientada a Objeto (POO)`, `herança` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-SentaQueL%C3%A1VemHist%C3%B3ria.py) | 
 | [**Criando nosso resilog**](https://github.com/lucasCanella/jornada-Resilia/tree/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-CriandoNossoResilog)  | `Programação Orientada a Objeto (POO)`, `criação e manipulação de arquivos` | [link](https://github.com/lucasCanella/jornada-Resilia/tree/main/Modulo2-Python_Orienta%C3%A7%C3%A3oaObjeto(07-2022)/Exerc%C3%ADcios/Atividade-CriandoNossoResilog) | 
@@ -126,8 +126,8 @@ Título | Conteúdo | Conceito | Link de acesso |
 * ### Projetos Individuais (To Do's)
 N° | Título | Conteúdo | Link de acesso |
 |--|--|--|--|
-3 | [**DEU MATCH!**](https://github.com/lucasCanella/ToDo-3-deu-match)  | `Criação de documentação` | [link](https://github.com/lucasCanella/ToDo-3-deu-match) | 
-4 | [**CONTRATADO!**](https://github.com/lucasCanella/ToDo-4-Contratado)  | `tipos de dados`, `operadores`, `função`, `formatação`, `entrada e saída de dados`  | [link](https://github.com/lucasCanella/ToDo-4-Contratado) | 
+3 | [**DEU MATCH!**](https://github.com/lucasCanella/ToDo-3-deu-match)  | `criação e manipulação de listas`, `manipulação de strings`, `criação de interface` | [link](https://github.com/lucasCanella/ToDo-3-deu-match) | 
+4 | [**CONTRATADO!**](https://github.com/lucasCanella/ToDo-4-Contratado)  | `funções`, `criação e manipulação de listas e dicionários`, `leitura de arquivos`, `criação de interface`  | [link](https://github.com/lucasCanella/ToDo-4-Contratado) | 
 <br>
 
 <br>
@@ -135,5 +135,5 @@ N° | Título | Conteúdo | Link de acesso |
 * ### Projeto Final 
 Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
- [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Provou seu diferencial`|[link](https://github.com/lucasCanella/Projeto_modulo-2) | 
+ [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Colocou tudo em prática`|[link](https://github.com/lucasCanella/Projeto_modulo-2) | 
 <br>
