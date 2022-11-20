@@ -135,5 +135,5 @@ N° | Título | Conteúdo | Link de acesso |
 * ### Projeto Final 
 Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
- [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Condicionais`, `Laços de repetição`, `criação e importação de módulos`, `funções`, `procedimentos`, `recursividade` | `Colocou tudo em prática`|[link](https://github.com/lucasCanella/Projeto_modulo-2) | 
+ [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Programação Orientada a Objeto (POO)`, `classes`, `métodos`, `construtor`, `getters`, `setters`, `criação de arquivo`, `criação de tabela`|[link](https://github.com/lucasCanella/Projeto_modulo-2) | 
 <br>
