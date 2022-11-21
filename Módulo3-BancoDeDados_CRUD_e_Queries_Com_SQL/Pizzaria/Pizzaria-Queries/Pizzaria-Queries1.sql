@@ -83,13 +83,33 @@ select id_cliente, count(id_pedido) as total_pedidos from tb_pedido group by id_
 
 -- 19) Selecionar os nomes dos clientes que realizaram mais de 2 pedidos:
 
-select id_cliente, count(id_pedido) as total_pedidos from tb_pedido group by id_cliente having count(id_pedido) > 2; 
+select tb_cliente.nome, count(id_pedido) as total_pedidos from tb_pedido
+inner join tb_cliente on tb_cliente.id_cliente = tb_pedido.id_cliente
+group by tb_cliente.nome having count(id_pedido) > 2 order by count(id_pedido); 
 
 -- 20) Retornar a quantidade de pedidos de cada pizza:
 
+select tb_pizza.id_pizza, tb_pizza.nome , count(id_pedido) as num_pedidos from tb_pedido_pizza
+inner join tb_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
+group by tb_pizza.id_pizza order by count(id_pedido) desc
+
 -- 21) Retornar a quantidade de pedidos de cada categoria de pizza:
+
+select tb_pizza.categoria, count(tb_pedido_pizza.id_pedido) as categoria_pedidos from tb_pizza
+inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza group by categoria
 
 -- 22) Retornar a soma dos preços dos pedidos agrupados pelo nome da pizza:
 
+select tb_pizza.nome, sum(tb_pedido.preco) as total_pedidos from tb_pizza 
+inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
+inner join tb_pedido on tb_pedido_pizza.id_pedido = tb_pedido.id_pedido
+group by tb_pizza.nome order by sum(tb_pedido.preco) desc
+
 -- 23) Retornar a soma dos preços dos pedidos agrupados pelo nome da pizza, filtrando pelas pizzas de categoria "Zero Lactose":
+
+select tb_pizza.nome, sum(tb_pedido.preco) as total_pedidos from tb_pizza 
+inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
+inner join tb_pedido on tb_pedido_pizza.id_pedido = tb_pedido.id_pedido
+group by tb_pizza.nome, tb_pizza.categoria having tb_pizza.categoria ilike 'zero lactose' 
+order by sum(tb_pedido.preco) desc
 
