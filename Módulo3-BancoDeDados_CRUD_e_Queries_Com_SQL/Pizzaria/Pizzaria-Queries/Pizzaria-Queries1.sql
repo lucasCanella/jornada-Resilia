@@ -75,7 +75,7 @@ select categoria, to_char(avg(preco), '99.99') as media_categoria from tb_pizza 
 
 -- 17) Selecionar o preço total dos pedidos agrupando-os por tipo de entrega:
 
-select tipo_entrega, sum(preco) as preco_total from tb_pedido group by tipo_entrega
+select tipo_entrega, sum(preco) as preco_total from tb_pedido group by tipo_entrega;
 
 -- 18) Selecionar o número de pedidos que cada cliente realizou na pizzaria em ordem crescente:
 
@@ -91,19 +91,19 @@ group by tb_cliente.nome having count(id_pedido) > 2 order by count(id_pedido);
 
 select tb_pizza.id_pizza, tb_pizza.nome , count(id_pedido) as num_pedidos from tb_pedido_pizza
 inner join tb_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
-group by tb_pizza.id_pizza order by count(id_pedido) desc
+group by tb_pizza.id_pizza order by count(id_pedido) desc;
 
 -- 21) Retornar a quantidade de pedidos de cada categoria de pizza:
 
 select tb_pizza.categoria, count(tb_pedido_pizza.id_pedido) as categoria_pedidos from tb_pizza
-inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza group by categoria
+inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza group by categoria;
 
 -- 22) Retornar a soma dos preços dos pedidos agrupados pelo nome da pizza:
 
 select tb_pizza.nome, sum(tb_pedido.preco) as total_pedidos from tb_pizza 
 inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
 inner join tb_pedido on tb_pedido_pizza.id_pedido = tb_pedido.id_pedido
-group by tb_pizza.nome order by sum(tb_pedido.preco) desc
+group by tb_pizza.nome order by sum(tb_pedido.preco) desc;
 
 -- 23) Retornar a soma dos preços dos pedidos agrupados pelo nome da pizza, filtrando pelas pizzas de categoria "Zero Lactose":
 
@@ -111,5 +111,5 @@ select tb_pizza.nome, sum(tb_pedido.preco) as total_pedidos from tb_pizza
 inner join tb_pedido_pizza on tb_pizza.id_pizza = tb_pedido_pizza.id_pizza
 inner join tb_pedido on tb_pedido_pizza.id_pedido = tb_pedido.id_pedido
 group by tb_pizza.nome, tb_pizza.categoria having tb_pizza.categoria ilike 'zero lactose' 
-order by sum(tb_pedido.preco) desc
+order by sum(tb_pedido.preco) desc;
 
