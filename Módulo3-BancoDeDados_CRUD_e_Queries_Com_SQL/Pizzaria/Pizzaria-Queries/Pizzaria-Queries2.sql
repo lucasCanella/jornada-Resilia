@@ -1,4 +1,4 @@
-/* Antes de verificar as consultas, é necessário rodar "Pizzaria-ScriptDeCriaçãoDeTabelas";
+/* Antes de verificar as consultas, é necessário rodar "Pizzaria-ScriptDeCriaçãoDeTabelas.sql";
 obs: no caso de dúvidas, consulte a modelagem do banco de dados
 */
 -- QUERIES (consultas):
