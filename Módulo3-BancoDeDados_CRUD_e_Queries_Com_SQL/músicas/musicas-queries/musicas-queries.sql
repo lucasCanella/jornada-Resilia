@@ -22,7 +22,7 @@ group by customer.country;
 -- 3) Selecione o país de origem dos usuários que mais escutam músicas do tipo Rock;
 
 
-select customer.country, count(rock_songs.genreid) from customer
+select customer.country, count(rock_songs.genreid) rock_count from customer
 inner join invoice on customer.customerid = invoice.customerid
 inner join invoiceline on invoice.invoiceid = invoiceline.invoiceid
 inner join (select * from track where genreid = 1) as rock_songs on invoiceline.trackid = rock_songs.trackid
@@ -51,20 +51,22 @@ group by customer.country
 
 -- 6) Selecione o nome dos artistas associados com o título dos seus álbuns;
 
-select artist.artistid, artist.name, album.title, album.artistid from artist 
+select artist.artistid, artist.name, album.title from artist 
 inner join album on artist.artistid = album.artistid
 order by artist.artistid
 
 -- 7) Selecione o nome dos artistas associados com o nome das músicas (Track.name) de forma paginada com 10 resultados por página;
 
-select artist.artistid, artist.name, track.name, track.trackid from artist 
+select artist.artistid, artist.name, track.name musicas, track.trackid from artist 
 inner join album on artist.artistid = album.artistid
 inner join track on album.albumid = track.albumid
 order by artist.artistid limit 10 offset (1-1)*10;
 
 -- 8) Selecione o nome das playlists e o total de músicas (Track.name) agrupadas pelas playlists que pertencem e ordenadas pelas playlists que possuem mais músicas;
 
-
+select playlist.name, count(playlisttrack.trackid) musicas_total from playlist
+inner join playlisttrack on playlist.playlistid = playlisttrack.playlistid
+group by playlist.name order by count(playlisttrack.trackid) desc;
 
 -- 9) Exiba o nome do gênero e a média de tempo das músicas em milisegundos agrupadas por gênero;
 
