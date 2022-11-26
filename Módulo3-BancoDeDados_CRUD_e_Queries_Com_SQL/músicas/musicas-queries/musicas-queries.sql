@@ -3,34 +3,64 @@ obs: no caso de dúvidas, consulte a modelagem do banco de dados
 */
 -- QUERIES (consultas):
 
--- 1) Selecionar o nome (Customers.FirstName) e a soma dos valores das contas dos usuários (Invoice.Total)
+-- 1) Selecionar o nome (Customer.FirstName) e a soma dos valores das contas dos usuários (Invoice.Total)
 --    filtrando pelos usuários que tiveram a soma das contas maiores que 40 e ordenados de modo que os maiores valores apareçam primeiro;
 
+select Customer.Customerid, Customer.FirstName, sum(Invoice.Total) from customer
+inner join invoice on customer.customerid =  invoice.customerid
+group by Customer.Customerid, Customer.FirstName having sum(Invoice.Total) > 40
+order by sum(Invoice.Total) desc;
 
+-- 2) Exiba a soma de tempo das musicas em milissegundos agrupados pelos nomes dos países de origem dos usuários;
 
--- 2) Exiba a soma de tempo das musicas em milisegundos agrupados pelos nomes dos países de origem dos usuários;
-
-
+select customer.country, sum(track.milliseconds) as musicas_milissegundos from customer
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid = invoiceline.invoiceid
+inner join track on invoiceline.trackid = track.trackid
+group by customer.country;
 
 -- 3) Selecione o país de origem dos usuários que mais escutam músicas do tipo Rock;
 
 
+select customer.country, count(rock_songs.genreid) from customer
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid = invoiceline.invoiceid
+inner join (select * from track where genreid = 1) as rock_songs on invoiceline.trackid = rock_songs.trackid
+group by customer.country 
+order by count(rock_songs.genreid) desc;
 
 -- 4) Selecione o nome do artista mais tocado no Brasil;
 
-
+select customer.country, mode() within group (order by artist.name) artista_mais_tocado from customer 
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid = invoiceline.invoiceid
+inner join track on invoiceline.trackid = track.trackid
+inner join album on track.albumid = album.albumid
+inner join artist on album.artistid = artist.artistid
+group by customer.country having country = 'Brazil'
 
 -- 5) Selecione os nomes dos artistas mais tocados agrupados por países de origem dos usuários;
 
-
+select customer.country, mode() within group (order by artist.name) artista_mais_tocado from customer 
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid = invoiceline.invoiceid
+inner join track on invoiceline.trackid = track.trackid
+inner join album on track.albumid = album.albumid
+inner join artist on album.artistid = artist.artistid
+group by customer.country
 
 -- 6) Selecione o nome dos artistas associados com o título dos seus álbuns;
 
-
+select artist.artistid, artist.name, album.title, album.artistid from artist 
+inner join album on artist.artistid = album.artistid
+order by artist.artistid
 
 -- 7) Selecione o nome dos artistas associados com o nome das músicas (Track.name) de forma paginada com 10 resultados por página;
 
-
+select artist.artistid, artist.name, track.name, track.trackid from artist 
+inner join album on artist.artistid = album.artistid
+inner join track on album.albumid = track.albumid
+order by artist.artistid limit 10 offset (1-1)*10;
 
 -- 8) Selecione o nome das playlists e o total de músicas (Track.name) agrupadas pelas playlists que pertencem e ordenadas pelas playlists que possuem mais músicas;
 
