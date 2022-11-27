@@ -3,7 +3,7 @@ obs: no caso de dúvidas, consulte a modelagem do banco de dados
 */
 -- QUERIES (consultas):
 
--- 1) Selecionar o nome (Customer.FirstName) e a soma dos valores das contas dos usuários (Invoice.Total)
+-- 1) Selecionar o nome e a soma dos valores das contas dos usuários
 --    filtrando pelos usuários que tiveram a soma das contas maiores que 40 e ordenados de modo que os maiores valores apareçam primeiro;
 
 select Customer.Customerid, Customer.FirstName, sum(Invoice.Total) from customer
@@ -55,14 +55,14 @@ select artist.artistid, artist.name, album.title from artist
 inner join album on artist.artistid = album.artistid
 order by artist.artistid;
 
--- 7) Selecione o nome dos artistas associados com o nome das músicas (Track.name) de forma paginada com 10 resultados por página;
+-- 7) Selecione o nome dos artistas associados com o nome das músicas de forma paginada com 10 resultados por página;
 
 select artist.artistid, artist.name, track.name musicas, track.trackid from artist 
 inner join album on artist.artistid = album.artistid
 inner join track on album.albumid = track.albumid
 order by artist.artistid limit 10 offset (1-1)*10;
 
--- 8) Selecione o nome das playlists e o total de músicas (Track.name) agrupadas pelas playlists que pertencem e ordenadas pelas playlists que possuem mais músicas;
+-- 8) Selecione o nome das playlists e o total de músicas agrupadas pelas playlists que pertencem e ordenadas pelas playlists que possuem mais músicas;
 
 select playlist.name, count(playlisttrack.trackid) musicas_total from playlist
 inner join playlisttrack on playlist.playlistid = playlisttrack.playlistid
@@ -80,7 +80,7 @@ select album.title, avg(rock_songs.milliseconds) from (select * from track where
 inner join album on album.albumid = rock_songs.albumid
 group by album.title order by avg(rock_songs.milliseconds) desc limit 1;
 
--- 11) Selecione o nome dos consumidores que tiveram as contas (invoice.total) maiores que a média;
+-- 11) Selecione o nome dos consumidores que tiveram as contas maiores que a média;
 
 select customer.firstname,customer.lastname, invoice.total from customer 
 inner join invoice on customer.customerid =invoice.customerid
@@ -99,19 +99,23 @@ where album.artistid = (select artistid from album
                         group by artistid 
                         order by count(title) desc limit 1);
                         
--- 13) Selecione o nome da playlist que possui a maior quantidade de músicas (Track.name);
+-- 13) Selecione o nome da playlist que possui a maior quantidade de músicas;
 
 select Playlist.name, count(trackid) num_musicas from Playlist
 inner join playlisttrack on Playlist.Playlistid = playlisttrack.Playlistid
-group by Playlist.name order by count(trackid) desc limit 1
+group by Playlist.name order by count(trackid) desc limit 1;
 
--- 14) Selecione o nome do gênero musical que possui a menor quantidade de músicas (Track.name);
+-- 14) Selecione o nome do gênero musical que possui a menor quantidade de músicas;
 
+select genre.name, count(track.trackid) from genre
+inner join track on genre.genreid = track.genreid
+group by genre.name order by count(track.trackid) asc limit 1;  
 
+-- 15) Selecione o nome de todos os funcionários associados com o nome de todos os consumidores que eles deram suporte;
 
--- 15) Selecione o nome de todos os funcionários associados com o nome de todos os consumidores que eles tiveram suporte (Customer.SupportRepld);
-
-
+select Employee.Employeeid, Employee.firstname funcionario, Employee.title cargo, customer.firstname consumidor from Employee
+left join customer on Employee.Employeeid = customer.SupportRepid
+order by Employee.Employeeid
 
 -- 16) Selecione o nome do gênero musical do artista que possui a menor quantidade de músicas (Track.name);
 
