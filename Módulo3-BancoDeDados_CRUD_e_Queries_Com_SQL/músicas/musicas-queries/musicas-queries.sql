@@ -68,9 +68,9 @@ select playlist.name, count(playlisttrack.trackid) musicas_total from playlist
 inner join playlisttrack on playlist.playlistid = playlisttrack.playlistid
 group by playlist.name order by count(playlisttrack.trackid) desc;
 
--- 9) Exiba o nome do gênero e a média de tempo das músicas em milisegundos agrupadas por gênero;
+-- 9) Exiba o nome do gênero e a média de tempo das músicas em milissegundos agrupadas por gênero;
 
-select genre.name, avg(track.milliseconds) from genre
+select genre.name, avg(track.milliseconds) media_milissegundos from genre
 inner join track on genre.genreid = track.genreid
 group by genre.name order by avg(track.milliseconds);
 
@@ -101,13 +101,13 @@ where album.artistid = (select artistid from album
                         
 -- 13) Selecione o nome da playlist que possui a maior quantidade de músicas;
 
-select Playlist.name, count(trackid) num_musicas from Playlist
+select Playlist.name playlist, count(trackid) qtd_musica from Playlist
 inner join playlisttrack on Playlist.Playlistid = playlisttrack.Playlistid
 group by Playlist.name order by count(trackid) desc limit 1;
 
 -- 14) Selecione o nome do gênero musical que possui a menor quantidade de músicas;
 
-select genre.name, count(track.trackid) from genre
+select genre.name genero, count(track.trackid) qtd_musica from genre
 inner join track on genre.genreid = track.genreid
 group by genre.name order by count(track.trackid) asc limit 1;  
 
@@ -115,19 +115,38 @@ group by genre.name order by count(track.trackid) asc limit 1;
 
 select Employee.Employeeid, Employee.firstname funcionario, Employee.title cargo, customer.firstname consumidor from Employee
 left join customer on Employee.Employeeid = customer.SupportRepid
-order by Employee.Employeeid
+order by Employee.Employeeid;
 
--- 16) Selecione o nome do gênero musical do artista que possui a menor quantidade de músicas (Track.name);
+-- 16) Selecione o nome do gênero musical dos artistas que possuem a menor quantidade de músicas;
 
+select artist.name artista, genre.name genero, count(track.trackid) qtd_musica from artist
+inner join album on artist.artistid = album.artistid
+inner join track on album.albumid = track.albumid
+inner join genre on track.genreid = genre.genreid
+group by artist.name, genre.name having count(track.trackid) = 1
+order by count(track.trackid) asc;
 
 
 -- 17) Selecione o nome do artista que possui mais músicas com diferentes gêneros musicais;
 
-
+select artist.name artista, count(distinct genre.name) genero_qtd from artist
+inner join album on artist.artistid = album.artistid
+inner join track on album.albumid = track.albumid
+inner join genre on track.genreid = genre.genreid
+group by artist.name order by count(distinct genre.name) desc limit 1;
 
 -- 18) Selecione a quantidade de músicas compradas por país de origem dos usuários;
 
-
+select customer.country, count(invoiceline.trackid) musicas_compradas from customer
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid =invoiceline.invoiceid
+group by customer.country order by count(invoiceline.trackid) desc;
 
 -- 19) Selecione o país de origem dos consumidores que mais compraram músicas do gênero musical Jazz;
 
+select customer.country, count(genre.name) jazz_total from customer
+inner join invoice on customer.customerid = invoice.customerid
+inner join invoiceline on invoice.invoiceid =invoiceline.invoiceid
+inner join (select * from track where genreid = 2) as jazz_track on invoiceline.trackid = jazz_track.trackid
+inner join genre on jazz_track.genreid = genre.genreid
+group by customer.country order by count(genre.name) desc limit 1
