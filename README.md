@@ -162,8 +162,8 @@ Título | Conteúdo | Conceito | Link de acesso |
 * ### Projetos Individuais (To Do's)
 N° | Título | Conteúdo | Link de acesso |
 |--|--|--|--|
-3 | [**DEU MATCH!**](https://github.com/lucasCanella/ToDo-3-deu-match)  | `criação e manipulação de listas`, `manipulação de strings`, `criação de interface` | [link](https://github.com/lucasCanella/ToDo-3-deu-match) | 
-4 | [**CONTRATADO!**](https://github.com/lucasCanella/ToDo-4-Contratado)  | `funções`, `criação e manipulação de listas e dicionários`, `leitura de arquivos`, `criação de interface`  | [link](https://github.com/lucasCanella/ToDo-4-Contratado) | 
+5 | [**SISTEMA RESILIADATA**](https://github.com/lucasCanella/ToDo-5-ResiliaData)  | `Modelagem de dados`, `Modelagem lógica`, `Modelagem conceitual` | [link](https://github.com/lucasCanella/ToDo-5-ResiliaData) | 
+6 | [**BANCO RESILIA**](https://github.com/lucasCanella/ToDo-6-BancoResilia)  | `Criação e povoamento de banco de dados`, `Queries (consultas)`  | [link](https://github.com/lucasCanella/ToDo-6-BancoResilia) | 
 <br>
 
 <br>
@@ -171,5 +171,5 @@ N° | Título | Conteúdo | Link de acesso |
 * ### Projeto Final 
 Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
- [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Programação Orientada a Objeto (POO)`, `classes`, `métodos`, `construtor`, `getters`, `setters`, `criação de arquivo`, `criação de tabela`| Colocou tudo em prática | [link](https://github.com/lucasCanella/Projeto_modulo-2)
+ [**Banco de dados da Resilia**](https://github.com/lucasCanella/Projeto-modulo-3)  | `Modelagem lógica e conceitual de dados`, `criação e povoamento de banco de dados`, `Queries (Consultas)`, `where`, `Funções agregadas`, `group by`, `order by`, `joins (inner, left, right, full outer)`, `subqueries`, `case` | Provou seu diferencial | [link](https://github.com/lucasCanella/Projeto-modulo-3)
 <br>
