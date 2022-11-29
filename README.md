@@ -137,3 +137,39 @@ Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
  [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Programação Orientada a Objeto (POO)`, `classes`, `métodos`, `construtor`, `getters`, `setters`, `criação de arquivo`, `criação de tabela`| Colocou tudo em prática | [link](https://github.com/lucasCanella/Projeto_modulo-2)
 <br>
+
+---
+
+## Módulo 3 - Banco de dados - CRUD e Queries SQL (08-2022)
+<br>
+
+
+* ### Exercícios
+
+<br>
+
+| Exercício | Conteúdo | Acesso | 
+|--|--|--|
+| [**Nossas primeiras tabelas**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Nossas_primeiras_tabelas/nossas_primeiras_tabelas.sql)  | `CRUD (Create, Read, Update, Delete)` |  [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Nossas_primeiras_tabelas/nossas_primeiras_tabelas.sql) |
+| [**Pizzaria (1, 2 e 3)**](https://github.com/lucasCanella/jornada-Resilia/tree/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Pizzaria) | `Queries (consultas)`, `where`, `Funções agregadas`, `group by`, `order by`, `case`, `joins (inner, left, right, full outer)`, `subqueries`, `views` | [link](https://github.com/lucasCanella/jornada-Resilia/tree/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Pizzaria) | 
+| [**Playlists**](https://github.com/lucasCanella/jornada-Resilia/tree/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Playlists)  |`Queries (consultas)`, `where`, `Funções agregadas`, `group by`, `order by`, `case`, `joins (inner, left, right, full outer)`, `subqueries`, `views` | [link](https://github.com/lucasCanella/jornada-Resilia/tree/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/Playlists) | 
+| [**Trigger**](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/trigger/trigger.sql) | `funções`, `trigger` | [link](https://github.com/lucasCanella/jornada-Resilia/blob/main/M%C3%B3dulo3-BancoDeDados_CRUD_e_Queries_Com_SQL/trigger/trigger.sql) | 
+
+<br>
+
+<br>
+
+* ### Projetos Individuais (To Do's)
+N° | Título | Conteúdo | Link de acesso |
+|--|--|--|--|
+3 | [**DEU MATCH!**](https://github.com/lucasCanella/ToDo-3-deu-match)  | `criação e manipulação de listas`, `manipulação de strings`, `criação de interface` | [link](https://github.com/lucasCanella/ToDo-3-deu-match) | 
+4 | [**CONTRATADO!**](https://github.com/lucasCanella/ToDo-4-Contratado)  | `funções`, `criação e manipulação de listas e dicionários`, `leitura de arquivos`, `criação de interface`  | [link](https://github.com/lucasCanella/ToDo-4-Contratado) | 
+<br>
+
+<br>
+
+* ### Projeto Final 
+Título | Conteúdo | Conceito | Link de acesso |
+|--|--|--|--|
+ [**Quero os dados na minha mesa!**](https://github.com/lucasCanella/Projeto_modulo-2)  | `Programação Orientada a Objeto (POO)`, `classes`, `métodos`, `construtor`, `getters`, `setters`, `criação de arquivo`, `criação de tabela`| Colocou tudo em prática | [link](https://github.com/lucasCanella/Projeto_modulo-2)
+<br>
