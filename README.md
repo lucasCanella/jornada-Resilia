@@ -173,3 +173,40 @@ Título | Conteúdo | Conceito | Link de acesso |
 |--|--|--|--|
  [**Banco de dados da Resilia**](https://github.com/lucasCanella/Projeto-modulo-3)  | `Modelagem lógica e conceitual de dados`, `criação e povoamento de banco de dados`, `Queries (Consultas)`, `where`, `Funções agregadas`, `group by`, `order by`, `joins (inner, left, right, full outer)`, `subqueries`, `case` | Provou seu diferencial | [link](https://github.com/lucasCanella/Projeto-modulo-3)
 <br>
+
+---
+
+## Módulo 4 - Python / Análise Exploratória e Tratamento de dados (09-2022)
+
+<br>
+
+* ### Exercícios
+
+<br>
+
+| Exercício | Conteúdo | Acesso | 
+|--|--|--|
+| [**Exercícios 1**]()  | `` |  [link]() |
+| [**Titanic**]() | `` | [link]() | 
+| [**Exercícios 2**]()  |`` | [link]() | 
+| [**Walmart**]() | `` | [link]() | 
+
+<br>
+
+<br>
+
+* ### Projetos Individuais (To Do's)
+N° | Título | Conteúdo | Link de acesso |
+|--|--|--|--|
+7 | [**Relatórios Semanais**](https://github.com/lucasCanella/ToDo-7-relatorios-semanais)  | `` | [link](https://github.com/lucasCanella/ToDo-7-relatorios-semanais) | 
+8 | [**Funcionários da Companhia Milsa**](https://github.com/lucasCanella/ToDo-8-Companhia-Milsa)  | ``  | [link](https://github.com/lucasCanella/ToDo-8-Companhia-Milsa) | 
+<br>
+
+<br>
+
+* ### Projeto Final 
+Título | Conteúdo | Conceito | Link de acesso |
+|--|--|--|--|
+ [**Dados para abastecer o carro!**](https://github.com/lucasCanella/Projeto-modulo-4)  | `` | Provou seu diferencial | [link](https://github.com/lucasCanella/Projeto-modulo-4)
+<br>
+
