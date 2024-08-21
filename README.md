@@ -13,7 +13,7 @@ Conheça a [Resilia](https://www.linkedin.com/school/resilia-educacao/) e conect
 <br>
 
 #### **O que é esse repositorio?**
-##### Esse Repositório é a minha **Jornada**. Todo o meu esforço, o meu tempo e o meu suor empregado no curso eu disponibilizo aqui. Abaixo você pode encontrar todos os exercícios, os projetos e tudo que desenvolvi ao longo desses 6 intensos meses.
+##### Esse Repositório é parte da minha **Jornada**. Todo o meu esforço, o meu tempo e o meu suor empregado no curso eu disponibilizo aqui. Abaixo você pode encontrar alguns exercícios, projetos e algumas coisas que desenvolvi ao longo desses 6 intensos meses.
 
 ##### Fiz esse repositório com objetivo de manter sempre registrado essa grande jornada, para que eu sempre possa relembrar dessa importante fase da minha vida, mas além disso, fiz pensando também em pessoas como eu a alguns meses atrás, pessoas inconformadas que estão em busca de desenvolvimento e de um futuro melhor, caso você está começando seus estudos na área de análise de dados, espero que tudo que eu passei possa te ajudar!
 
@@ -177,21 +177,6 @@ Título | Conteúdo | Conceito | Link de acesso |
 ---
 
 ## Módulo 4 - Python / Análise Exploratória e Tratamento de dados (09-2022)
-
-<br>
-
-* ### Exercícios
-
-<br>
-
-| Exercício | Conteúdo | Acesso | 
-|--|--|--|
-| [**Exercícios 1**]()  | `` |  [link]() |
-| [**Titanic**]() | `` | [link]() | 
-| [**Exercícios 2**]()  |`` | [link]() | 
-| [**Walmart**]() | `` | [link]() | 
-
-<br>
 
 <br>
 
